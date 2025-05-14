@@ -1,7 +1,5 @@
-let contraseña = prompt("Introduce la contraseña");
-
 const nuevacontraseña = "1234";
-
+let contraseña;
 
 do{
     contraseña = prompt("Introduce la contraseña");
@@ -11,7 +9,9 @@ do{
 alert("La contraseña es correcta");
 
 
-/*while (contraseña != nuevacontraseña){
+/* Intento
+
+while (contraseña != nuevacontraseña){
 
     let nuevacontraseña = prompt("Ingrese la contraseña");
     if (contraseña == nuevacontraseña){
